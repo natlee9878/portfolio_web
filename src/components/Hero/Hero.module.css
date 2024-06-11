@@ -9,6 +9,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    /* margin-bottom: 49px; */
 }
 
 .content {
@@ -30,7 +31,6 @@
             rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-
 }
 
 .description {
