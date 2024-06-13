@@ -13,14 +13,14 @@ export const Hero = () => {
                     Full-Stack Web Developer / Software Developer
                 </p>
                 <a href="mailto:natleejianyang@gmail.com" className={styles.contactBtn}>
-                    Contact Me
+                    Let's talk
                 </a>
             </div>
-            <img
+            {/* <img
                 src={getImageUrl("hero/circlenat.png")}
                 alt="Hero image of me"
                 className={styles.heroImg}
-            />
+            /> */}
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>

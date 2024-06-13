@@ -1,11 +1,11 @@
 :root {
     /* colors */
-    --color-text: #fff;
-    --color-primary: #576cbc;
-    --color-secondary: #0b2447;
-    --color-bg: #04152d;
-    --color-dark: #0b2447;
+    --color-text: #141619;
+    --color-primary: #0a21c0;
+    --color-secondary: #b3b4bd;
+    --color-bg: #f1f1fb    ;
+    --color-dark: #050a44;
+    --color-button: #2c2e3a;
     /*fonts*/
     --fonts-robot: "Roboto";
-    --fonts-advent: "Advent-pro" ;
 }
