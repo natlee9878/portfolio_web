@@ -20,23 +20,40 @@
     z-index: 1;
 }
 
+.smalltext {
+    font-size: 35px;
+    font-weight: 1000;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
 .title {
     font-size: 72px;
     font-weight: 900;
-    margin-bottom: 33px;
+    margin-bottom: 5px;
     font-family: var(--font-roboto);
     background:
         linear-gradient(90deg,
-            rgba(255, 255, 255, 1) 70%,
+            rgba(204, 216, 248, 1) 70%,
             rgba(255, 255, 255, 0) 120%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 
+.subtitle {
+    color: #8892b0 ;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-family: var(--font-roboto);
+}
+
 .description {
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 550;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
+    color: #717b92;
 }
 
 .contactBtn {
@@ -51,8 +68,9 @@
 }
 
 .heroImg {
-    width: 50%;
+    width: 35%;
     z-index: 1;
+    margin-left: 10%; 
 
     /* Animation */
     animation-name: floating;
@@ -108,7 +126,25 @@
         flex-direction: column-reverse;
     }
 
+    .title {
+        text-align: center;
+    }
+
     .content {
         align-items: center;
+    }
+
+    .subtitle {
+        text-align: center;
+    }
+
+    .heroImg {
+        margin-left: 0%;
+        margin-bottom: 52px;
+        align-items: center;
+    }
+
+    .description {
+        text-align: center;
     }
 }
