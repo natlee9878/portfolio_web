@@ -1,8 +1,9 @@
 @import "../../vars.css";
 
+
+
 .container {
   position: relative;
-  background-color: rgba(12, 12, 12, 0.1);
   border-radius: 15px;
   padding: 73px;
   margin-top: 0px;
@@ -10,6 +11,7 @@
   margin-left: 10%;
   margin-right: 10%;
   overflow: hidden;
+
 }
 
 .title {
@@ -17,6 +19,7 @@
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
+  text-align: center;
   text-transform: uppercase;
   line-height: 0.3;
   margin-bottom: 20px;
@@ -34,7 +37,13 @@
 }
 
 .title span:before{
-  width: 0px;
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 2px solid black;
+  border-top: 0px solid black;
+  top: 0;
+  width: 600px;
 }
 
 .title span:after {
@@ -48,7 +57,7 @@
 }
 .title span:before {
   right: 100%;
-  margin-right: 0px;
+  margin-right: 15px;
 }
 .title span:after {
   left: 100%;
