@@ -1,27 +1,26 @@
 [
-    {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
-  
+  {
+    "title": "Video-Store Web Application",
+    "imageSrc": "projects/videostore.png",
+    "description": "A platform for browsing, hiring, purchasing movies, and managing inventory and transactions.",
+    "skills": ["Ruby", "HTML", "JavaScript", "CSS", "SQL", "Redis"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/natlee9878/video_store_application"
+  },
+  {
+    "title": "SOCIAL Web Application",
+    "imageSrc": "projects/socialweb.png",
+    "description": "A dynamic social web platform enabling users to efficiently plan events and synchronize schedules. ",
+    "skills": ["HTML", "JavaScript", "CSS", "SQL", "Vue", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/natlee9878/event_manager"
+  },
+  {
+    "title": "Roulette King",
+    "imageSrc": "projects/roulette.png",
+    "description": "A narrative-driven roulette game with different player classes, based on terminal/console interaction.",
+    "skills": ["C++"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/natlee9878/roulette_game"
+  }
+]

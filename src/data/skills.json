@@ -28,6 +28,10 @@
     "imageSrc": "skills/sql.png"
   },
   {
+    "title": "Redis",
+    "imageSrc": "skills/sql.png"
+  },
+  {
     "title": "Python",
     "imageSrc": "skills/python.png"
   },
@@ -45,6 +49,10 @@
   },
   {
     "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Vue",
     "imageSrc": "skills/node.png"
   },
   {
