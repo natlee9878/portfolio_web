@@ -5,6 +5,7 @@ import { About } from './components/About/About';
 import { Experience } from './components/Experience/Experience';
 import { Project } from './components/Project/Project';
 import { Contact } from './components/Contact/Contact';
+import { Copyright } from './components/Copyright/Copyright';
 
 
 
@@ -17,6 +18,7 @@ function App() {
       <Experience />
       <Project />
       <Contact />
+      <Copyright />
     </div>
   );
 }

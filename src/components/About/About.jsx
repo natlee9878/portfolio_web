@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <section className={styles.container} id="about">
       <h2 className={styles.title}>
-        <span>01.About me </span>
+        <span> About me </span>
       </h2>
       <div className={styles.content}>
         <img

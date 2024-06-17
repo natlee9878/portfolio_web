@@ -22,7 +22,7 @@ export const Hero = () => {
                 className={styles.heroImg}
             /> */}
             <div className={styles.topBlur} />
-            <div className={styles.bottomBlur} />
+            {/* <div className={styles.bottomBlur} /> */}
         </section>
     );
 };

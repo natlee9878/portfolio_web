@@ -1,64 +1,80 @@
 @import "../../vars.css";
 
+text {
+  font-style: var(--font-robot);
+}
+
 .container {
-    color: var(--color-text);
-    margin-top: 120px;
-    background-color: var(--color-secondary);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 100vw;
-    padding: 58px 10%;
-    gap: 10px;
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 130px 10%;
+  align-items: center;
 }
 
-.text h2 {
-    font-size: 80px;
-    font-weight: 700;
-    letter-spacing: 4px;
+.heading {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
-.text p {
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 2px;
+.line {
+  border: none;
+  width: 120px;
+  height: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    list-style: none;
-    gap: 26px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
 }
 
 .link {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link img {
+  width: 30px;
+  height: auto; 
 }
 
 .link a {
-    color: var(--color-text);
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 400;
-    letter-spacing: 1.5px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
 }
 
+
 @media screen and (max-width: 830px) {
-    .container {
-        flex-direction: column;
-        gap: 23px;
-    }
+  .container {
+    flex-direction: column;
+    gap: 23px;
+  }
 
-    .text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .links {
-        align-items: center;
-    }
+  .links {
+    align-items: center;
+  }
 }
