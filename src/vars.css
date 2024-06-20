@@ -7,6 +7,8 @@
     --color-bg: #f1f1fb;
     --color-dark: #050a44;
     --color-button: #2c2e3a;
+    --color-button-hover: #2980b9; /* Example hover color */
+
     /*fonts*/
     --fonts-robot: "Roboto";
 }
